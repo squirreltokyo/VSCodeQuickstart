@@ -27,11 +27,12 @@
                     onclick={calculateMonthlyPayment}
                 ></lightning-button>
             </p>
-            <lightning-output
+            <lightning-input field-name="monthlyPayment"
                 type="number"
+                label="monthlyPayment"
                 currency-code="USD"
                 value={monthlyPayment}
-            ></lightning-output
+            ></lightning-input
             ><br />
         </div>
 
